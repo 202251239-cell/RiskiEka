@@ -1,0 +1,101 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1080" y2="1920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F7FF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#1E293B" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+
+  <!-- Device frame -->
+  <rect x="240" y="80" width="600" height="1760" rx="56" fill="#111827"/>
+  <rect x="262" y="120" width="556" height="1680" rx="44" fill="#F8FAFC"/>
+  <rect x="470" y="140" width="140" height="10" rx="5" fill="#CBD5E1"/>
+
+  <!-- Header -->
+  <text x="300" y="220" fill="#0F172A" font-size="28" font-family="Inter, Arial" font-weight="700">Order #PH-1024</text>
+  <text x="300" y="252" fill="#64748B" font-size="18" font-family="Inter, Arial">Penjaga-Hati • Mobile Mockup</text>
+
+  <!-- Sticky progress -->
+  <g filter="url(#shadow)">
+    <rect x="292" y="286" width="496" height="110" rx="22" fill="#FFFFFF"/>
+  </g>
+  <text x="324" y="330" fill="#0F172A" font-size="20" font-family="Inter, Arial" font-weight="600">Tahap 3 dari 5</text>
+  <rect x="324" y="348" width="432" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="324" y="348" width="260" height="18" rx="9" fill="#4F46E5"/>
+  <text x="710" y="365" fill="#4F46E5" font-size="16" font-family="Inter, Arial" font-weight="700">60%</text>
+
+  <!-- Live badge card -->
+  <g filter="url(#shadow)">
+    <rect x="292" y="420" width="496" height="132" rx="22" fill="#FFFFFF"/>
+  </g>
+  <circle cx="334" cy="470" r="10" fill="#22C55E"/>
+  <text x="356" y="476" fill="#0F172A" font-size="24" font-family="Inter, Arial" font-weight="700">Kurir menuju lokasi</text>
+  <text x="324" y="515" fill="#64748B" font-size="18" font-family="Inter, Arial">Update terakhir: 5 detik lalu</text>
+  <rect x="656" y="444" width="100" height="34" rx="17" fill="#DCFCE7"/>
+  <text x="688" y="467" fill="#166534" font-size="16" font-family="Inter, Arial" font-weight="700">LIVE</text>
+
+  <!-- Timeline card -->
+  <g filter="url(#shadow)">
+    <rect x="292" y="574" width="496" height="560" rx="22" fill="#FFFFFF"/>
+  </g>
+  <text x="324" y="622" fill="#0F172A" font-size="24" font-family="Inter, Arial" font-weight="700">Alur Pesanan</text>
+
+  <line x1="352" y1="660" x2="352" y2="1060" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Step items -->
+  <circle cx="352" cy="690" r="14" fill="#16A34A"/>
+  <text x="346" y="696" fill="white" font-size="14" font-family="Inter, Arial" font-weight="700">✓</text>
+  <text x="388" y="694" fill="#0F172A" font-size="20" font-family="Inter, Arial" font-weight="600">Pesanan dibuat</text>
+  <text x="388" y="720" fill="#64748B" font-size="16" font-family="Inter, Arial">10:01</text>
+
+  <circle cx="352" cy="780" r="14" fill="#16A34A"/>
+  <text x="346" y="786" fill="white" font-size="14" font-family="Inter, Arial" font-weight="700">✓</text>
+  <text x="388" y="784" fill="#0F172A" font-size="20" font-family="Inter, Arial" font-weight="600">Pembayaran</text>
+  <text x="388" y="810" fill="#64748B" font-size="16" font-family="Inter, Arial">10:03</text>
+
+  <circle cx="352" cy="870" r="14" fill="#F59E0B"/>
+  <text x="347" y="876" fill="white" font-size="12" font-family="Inter, Arial" font-weight="700">•</text>
+  <text x="388" y="874" fill="#0F172A" font-size="20" font-family="Inter, Arial" font-weight="600">Diproses</text>
+  <text x="388" y="900" fill="#64748B" font-size="16" font-family="Inter, Arial">10:10</text>
+
+  <circle cx="352" cy="960" r="14" fill="#CBD5E1"/>
+  <text x="388" y="964" fill="#0F172A" font-size="20" font-family="Inter, Arial" font-weight="600">Dikirim</text>
+  <text x="388" y="990" fill="#94A3B8" font-size="16" font-family="Inter, Arial">Menunggu</text>
+
+  <circle cx="352" cy="1050" r="14" fill="#CBD5E1"/>
+  <text x="388" y="1054" fill="#0F172A" font-size="20" font-family="Inter, Arial" font-weight="600">Selesai</text>
+  <text x="388" y="1080" fill="#94A3B8" font-size="16" font-family="Inter, Arial">Menunggu</text>
+
+  <!-- Expandable card -->
+  <g filter="url(#shadow)">
+    <rect x="292" y="1160" width="496" height="210" rx="22" fill="#FFFFFF"/>
+  </g>
+  <text x="324" y="1206" fill="#0F172A" font-size="22" font-family="Inter, Arial" font-weight="700">Detail Status (Expanded)</text>
+  <text x="324" y="1242" fill="#334155" font-size="18" font-family="Inter, Arial">• Operator: Rina</text>
+  <text x="324" y="1272" fill="#334155" font-size="18" font-family="Inter, Arial">• Queue: #12</text>
+  <text x="324" y="1302" fill="#334155" font-size="18" font-family="Inter, Arial">• Estimasi selesai: 15 menit</text>
+  <rect x="626" y="1184" width="130" height="34" rx="17" fill="#EEF2FF"/>
+  <text x="651" y="1207" fill="#4338CA" font-size="16" font-family="Inter, Arial" font-weight="700">Detail ▼</text>
+
+  <!-- Bottom CTA -->
+  <g filter="url(#shadow)">
+    <rect x="292" y="1400" width="496" height="220" rx="26" fill="#FFFFFF"/>
+  </g>
+  <rect x="324" y="1432" width="210" height="58" rx="18" fill="#E2E8F0"/>
+  <text x="392" y="1469" fill="#0F172A" font-size="20" font-family="Inter, Arial" font-weight="600">Chat CS</text>
+  <rect x="548" y="1432" width="208" height="58" rx="18" fill="#C7D2FE"/>
+  <text x="626" y="1469" fill="#3730A3" font-size="20" font-family="Inter, Arial" font-weight="700">Lacak</text>
+  <rect x="324" y="1506" width="432" height="82" rx="18" fill="#EF4444"/>
+  <text x="492" y="1557" fill="white" font-size="24" font-family="Inter, Arial" font-weight="700">Batalkan</text>
+
+  <!-- Toast -->
+  <g filter="url(#shadow)">
+    <rect x="314" y="1648" width="452" height="90" rx="20" fill="#111827"/>
+  </g>
+  <text x="344" y="1702" fill="#F8FAFC" font-size="20" font-family="Inter, Arial" font-weight="600">🔔 Pesanan masuk tahap kirim</text>
+</svg>
